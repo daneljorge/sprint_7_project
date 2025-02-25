@@ -29,7 +29,7 @@ if disp_checkbox and button: # when the button is clicked
     
     # create scatter
     
-    fig = px.scatter(car_data, x="odometer")
+    fig = px.scatter(car_data, x="odometer", y="price") # crear un gráfico de dispersión
     
     # show interactive Plotly graph
     
